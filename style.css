@@ -1,0 +1,91 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f0f8ff; /* color de fondo claro */
+  color: #333;
+  font-family: 'Sansation', sans-serif;
+}
+
+main {
+  padding: 2rem;
+  padding-top: 80px;
+}
+
+section.container {
+  background-color: #ffffff;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+}
+
+
+/* BARRA MENU  */
+.navbar-dark .nav-link {
+  color: #ccc;
+  margin-right: 1rem;
+  transition: all 0.3s ease;
+}
+
+.navbar-dark .nav-link:hover {
+  color: #fff;
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.4);
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  color: #f8f9fa !important;
+}
+
+.navbar-brand i {
+  animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(1.1); opacity: 0.8; }
+}
+
+/* FORMATO IMAGEN */
+.poster-img {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* ICONOS EN GRIS */
+.icono-gris {
+  color: #6c757d;
+  transition: color 0.3s ease;
+}
+
+.icono-gris:hover {
+  color: #adb5bd;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.card-title {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.card-text {
+  font-size: 0.95rem;
+}
+
+.scroll-offset {
+  scroll-margin-top: 80px; /* Debe ser igual o mayor a la altura de tu navbar */
+}
+.chewy-regular {
+  font-family: "Chewy", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
