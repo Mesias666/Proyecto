@@ -100,3 +100,18 @@ input[type="range"] {
   width: 150px;
 }
 
+#reproductorFlotante {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 160px;
+  z-index: 999;
+  border: 1px solid #ddd;
+}
+
+#reproductorFlotante input[type="range"] {
+  width: 100%;
+}
+
+
+
