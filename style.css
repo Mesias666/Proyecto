@@ -1,4 +1,4 @@
-/* ====== ESTILO GENERAL ====== */
+
 body {
   margin: 0;
   background-color: #f0f8ff;
@@ -8,7 +8,7 @@ body {
 
 main {
   padding: 2rem;
-  padding-top: 80px; /* compensa el navbar fijo */
+  padding-top: 80px; 
 }
 
 section.container {
@@ -23,7 +23,7 @@ section.container {
   scroll-margin-top: 80px;
 }
 
-/* ====== NAVBAR ====== */
+/* NAVBAR */
 .navbar-dark .nav-link {
   color: #ccc;
   margin-right: 1rem;
@@ -55,7 +55,7 @@ section.container {
   50% { transform: scale(1.1); opacity: 0.8; }
 }
 
-/* ====== IMÁGENES ====== */
+/*  IMAGENES  */
 .poster-img {
   width: 100%;
   height: 600px;
@@ -71,7 +71,7 @@ section.container {
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
 }
 
-/* ====== TARJETAS (Noticias) ====== */
+/*  TARJETAS / NOTICIAS  */
 .card-title {
   font-weight: bold;
   font-size: 1.1rem;
@@ -81,7 +81,7 @@ section.container {
   font-size: 0.95rem;
 }
 
-/* ====== ICONOS ====== */
+/*  ICONOS  */
 .icono-gris {
   color: #6c757d;
   transition: color 0.3s ease;
@@ -91,7 +91,7 @@ section.container {
   color: #adb5bd;
 }
 
-/* ====== TEXTO ====== */
+/*  TEXTO */
 .text-justify {
   text-align: justify;
 }
