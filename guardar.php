@@ -11,14 +11,14 @@ if ($conn->connect_error) {
     die("Conexión fallida: " . $conn->connect_error);
 }
 
-// Variables iniciales
+// Variables
 $id = "";
 $nombres = "";
 $telefono = "";
 $mensaje = "";
 $modo = "crear";
 
-// Si se va a editar
+// Editar
 if (isset($_GET['editar'])) {
     $modo = "editar";
     $id = $_GET['editar'];
@@ -29,7 +29,7 @@ if (isset($_GET['editar'])) {
     $mensaje = $fila['mensaje'];
 }
 
-// Si se va a eliminar
+// Eliminar
 if (isset($_GET['eliminar'])) {
     $id = $_GET['eliminar'];
     $conn->query("DELETE FROM contactos WHERE id = $id");
